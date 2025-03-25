@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+  say-hello:
+     image: docker_test_image
+
+#version - версия формата файла docker-compose.yml. Зависит от нужных функций
+# и версии Docker Compose. services - раздел с описаниями контейнеров, здесь
+#он один. Указываю образ, из которого создаю контейнер.
